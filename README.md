@@ -23,13 +23,16 @@ before execute please change
 
 
 src/main/java                                                        
--> com.ashok_Assignment
-        //ininitializ the properties file
+ -> com.ashok_Assignment
+        
+	//ininitializ the properties file
       ->BaseClass
-         //ininitializ the browser
-         ->public void initialization()
-         //take screenShots
-         public void takeScreenShot(String methodName)
+        
+	//ininitializ the browser 
+	 ->public void initialization()
+          
+	  //take screenShots
+         ->public void takeScreenShot(String methodName)
          
      ->configuration
         config.prperties file
