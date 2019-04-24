@@ -20,7 +20,8 @@ public class UtilClass {
 	public final static int pageloadTimeout=60;
 	
 	public final static String screenShotFilePath="C:\\Users\\ASHOK\\workspace\\Selenium_Coding_Assignment_21-04-2019\\Screenshots";
-	
+	public final static String propFilePath="C:\\Users\\ASHOK\\workspace\\Selenium_Coding_Assignment_21-04-2019\\src\\main\\"
+				+ "java\\com\\ashok_Assignment\\configuration\\config.properties";
 	//page scrolling down upto end
 	public static void scrollPageDown(WebDriver driver){
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
