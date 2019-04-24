@@ -65,7 +65,7 @@ public class BaseClass {
 	   	 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	        //The below method will save the screen shot in the drive with test method name 
 	           try {
-					FileUtils.copyFile(scrFile, new File(UtilClass.screenShotFilePath+methodName+".jpg"));
+					FileUtils.copyFile(scrFile, new File(UtilClass.screenShotFilePath+methodName+"_failed.jpg"));
 					System.out.println("***Placed screen shot in "+UtilClass.screenShotFilePath+" ***");
 				} catch (IOException e) {
 					e.printStackTrace();
