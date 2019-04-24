@@ -27,11 +27,8 @@ public class BaseClass {
 	public BaseClass(){
 		prop=new Properties();
 		
-		//location of the property file
-		String filePath="C:\\Users\\ASHOK\\workspace\\Selenium_Coding_Assignment_21-04-2019\\src\\main\\"
-				+ "java\\com\\ashok_Assignment\\configuration\\config.properties";
 		try {
-			FileInputStream fis=new FileInputStream(new File(filePath));
+			FileInputStream fis=new FileInputStream(new File(UtilClass.propFilePath));
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			System.out.println("Properties File not found at given location");
